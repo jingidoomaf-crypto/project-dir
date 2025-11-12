@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 from config import Config
 from models.db import db
 
+
 import os
 
 load_dotenv()
