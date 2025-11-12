@@ -1,3 +1,4 @@
+from datetime import date
 from app import app
 from models.db import db
 from models.user_model import User
@@ -16,6 +17,10 @@ def seed_data():
                     uname="Jingifortunato",
                     email="jhin@exapmle.com",
                     pass_word=generate_password_hash("jhin123"),
+                    birthday=date(1999, 1, 1),
+                    gender="Female",
+                    phone_number="09130567789",
+                    address="Pasig Street, Manila City",
                 ), 
                 User(
                     fname="Jovanie",
@@ -23,6 +28,10 @@ def seed_data():
                     uname="jovaniegador",
                     email="jovaniegador@test.com",
                     pass_word=generate_password_hash("vanie123"),
+                    birthday=date(2004, 13, 9),
+                    gender="Male",
+                    phone_number="09556648909",
+                    address="Tondo Street, Manila City",
                 )
             ]
 
