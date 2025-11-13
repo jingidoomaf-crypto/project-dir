@@ -23,7 +23,7 @@ def seed_data():
                     lname="Yasmin",
                     uname="kween",
                     email="kweentheogsierramadre25@test.com",  # Fixed typo
-                    pass_word=generate_password_hash("kween123")
+                    pass_word=generate_password_hash("kweenyazz231")
                 )
             ]
 
