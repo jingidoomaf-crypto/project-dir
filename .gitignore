@@ -1,25 +1,3 @@
-
-# .gitignore
-
-# Python cache files
-__pycache__/
-*.pyc
-*.pyo
-
-# Environment files
+venv
 .env
-<<<<<<< Updated upstream
-
-# Virtual environment
-venv/
-.env/
-
-# Logs
-*.log
-
-# IDE/project files (optional)
-.vscode/
-.idea/
-=======
 seeder.py
->>>>>>> Stashed changes
