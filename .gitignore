@@ -8,6 +8,7 @@ __pycache__/
 
 # Environment files
 .env
+<<<<<<< Updated upstream
 
 # Virtual environment
 venv/
@@ -19,3 +20,6 @@ venv/
 # IDE/project files (optional)
 .vscode/
 .idea/
+=======
+seeder.py
+>>>>>>> Stashed changes
