@@ -1,3 +1,5 @@
 venv/
+.venv/
+seeder.py/
 .env
 seeder.py
