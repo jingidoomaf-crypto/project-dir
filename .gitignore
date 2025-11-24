@@ -1,3 +1,6 @@
 venv/
 .env
 seeder.py
+.venv
+__pycache__
+migrations
